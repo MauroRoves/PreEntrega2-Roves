@@ -1,7 +1,7 @@
 
 // SEGUNDA ENTREGA
 
-
+/* 
 
  
   class Producto {
@@ -34,8 +34,8 @@ alert("Retratos:" + "\n" + "\n" + "Torre de pisa - A4 - Fibra - 10 USD - Numero 
 
 let laminaElegida = prompt("Ingresar numero de la Lamina a Comprar");
 let agradecer = "\n" + "Gracias por tu compra"
-
-
+ */
+/* 
 
  if (laminaElegida == 1) {
     alert("El precio de tu retrato es 10 USD" + agradecer);
@@ -57,7 +57,7 @@ let agradecer = "\n" + "Gracias por tu compra"
     console.log("Has comprado `Torre Eiffel` ");
 } else { 
     alert("Ingrese un numero del 1 al 6")
-}  
+}   */
 
 
 
