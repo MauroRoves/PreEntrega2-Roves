@@ -7,7 +7,6 @@
  
 =======
   
->>>>>>> nueva-rama
   class Producto {
     constructor(nombre, precio, dimensiones, tecnica, numero) {
         this.nombre = nombre;
@@ -18,7 +17,7 @@
         }
     }
     
-   
+
 const a4 = [];
 const a3 = [];
 const unOctavoWatman = [];
@@ -113,7 +112,7 @@ let agradecer = "\n" + "Gracias por tu compra"
 
 =======
 
-a4.push( new Producto ("Torre de Pisa", 10, "A4", "Fibra", 1));
+a4.push( new Producto ("Torre de Pisa", 10 , "A4", "Fibra", 1));
 a4.push( new Producto ("Puente Vasco da Gama", 20, "A4", "Fibra", 2));
 
 a3.push( new Producto ("Patron sobre lienzo", 30, "A3", "Oleo sobre lienzo", 3));
@@ -131,16 +130,14 @@ alert("Retratos:" + "\n" + "\n" + "Torre de pisa - A4 - Fibra - 10 USD - Numero 
 
 
 
-let laminaElegida = prompt("Ingresar numero de la Lamina a Comprar : ");
+let laminaElegida = parseInt(prompt("Ingrese el numero de lamina a Comprar"));
 
 
 
-
-const a4Elegido = a4.find((el) => el.precio === laminaElegida);                                              
-const a3Elegido = a3.find((el) => el.precio === laminaElegida);                                                       
-const unOctavoWatmanElegido = unOctavoWatman.find((el) => el.precio === laminaElegida); 
+const a4Elegido = a4.find((el) => el.numero === laminaElegida);                                              
+const a3Elegido = a3.find((el) => el.numero === laminaElegida);                                                         
+const unOctavoWatmanElegido = unOctavoWatman.find((el) => el.numero === laminaElegida); 
 const encuadre = [2, 3, 5]
-
 
 
 if (laminaElegida <= 2) {
@@ -154,13 +151,6 @@ if (laminaElegida <= 2) {
     alert("Muchas Gracias");
 } else  
     alert("Ingrese un numero del 1 al 6");
-
-
-
-
-
-
-
 
 
 
