@@ -1,0 +1,9 @@
+.products-container{
+    margin: 10px;
+}
+
+.products-list {
+    display: flex;
+    justify-content: space-around;
+    
+}

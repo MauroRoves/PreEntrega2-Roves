@@ -1,0 +1,27 @@
+
+
+
+nav {
+    justify-content: center;
+    background-color: rgb(153, 42, 209);
+}
+
+nav ul {
+
+    margin-top: 20px;
+    background-color: rgb(206, 124, 234);
+    padding-left: 0px;
+
+
+} 
+
+li {
+
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 40px 0px 40px;
+} 
+
+.img-navbar {
+    max-height: 20px;
+}
